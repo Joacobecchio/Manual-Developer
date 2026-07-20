@@ -44,8 +44,8 @@ export const chapters: Chapter[] = [
     title: 'Autenticación y seguridad',
     description: 'Defendé las decisiones de autenticación, sesiones, proveedores OAuth y protección de datos.',
     level: 'Intermedio',
-    status: 'Próximamente',
-    progress: 0,
+    status: 'Disponible',
+    progress: 15,
   },
   {
     slug: 'monedero-estado-y-datos',

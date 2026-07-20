@@ -1,3 +1,5 @@
+import { MonederoAuthenticationChapter } from '@/components/chapters/monedero-authentication';
+
 type ChapterContentProps = {
   slug: string;
 };
@@ -141,5 +143,6 @@ export function ChapterContent({ slug }: ChapterContentProps) {
   if (slug === 'contame-sobre-vos') return <AboutYouChapter />;
   if (slug === 'por-que-desarrollo') return <WhyDevelopmentChapter />;
   if (slug === 'monedero-overview') return <MonederoOverviewChapter />;
+  if (slug === 'monedero-autenticacion') return <MonederoAuthenticationChapter />;
   return null;
 }
