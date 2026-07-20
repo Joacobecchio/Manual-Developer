@@ -18,7 +18,7 @@ export const chapters: Chapter[] = [
     description: 'Construí una presentación profesional honesta, clara y orientada al puesto.',
     level: 'Inicial',
     status: 'Disponible',
-    progress: 35,
+    progress: 100,
   },
   {
     slug: 'por-que-desarrollo',
